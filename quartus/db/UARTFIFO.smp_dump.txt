@@ -1,0 +1,15 @@
+
+State Machine - |UARTFIFO|TxSerial:u_TxSerial|rState
+Name rState.stWtEnd rState.stWtData rState.stRdReq rState.stIdle 
+rState.stIdle 0 0 0 0 
+rState.stRdReq 0 0 1 1 
+rState.stWtData 0 1 0 1 
+rState.stWtEnd 1 0 0 1 
+
+State Machine - |UARTFIFO|RxSerial:u_RxSerial|rState
+Name rState.stSend rState.stStop rState.stRecieve rState.stStart rState.stIdle 
+rState.stIdle 0 0 0 0 0 
+rState.stStart 0 0 0 1 1 
+rState.stRecieve 0 0 1 0 1 
+rState.stStop 0 1 0 0 1 
+rState.stSend 1 0 0 0 1 

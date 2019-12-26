@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "TxSerData",
+					"strict" : false
+				},
+				{
+					"name" : "RxSerData",
+					"strict" : false
+				},
+				{
+					"name" : "Clk50",
+					"strict" : false
+				},
+				{
+					"name" : "RstB",
+					"strict" : false
+				},
+				{
+					"name" : "Button",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
